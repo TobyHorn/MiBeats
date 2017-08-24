@@ -1,0 +1,15 @@
+{
+  "name": "mibeats",
+  "version": "1.0.0",
+  "description": "MiBeats is an online beats shop created for my P&P IV course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toby Horn (Kankuro)",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}

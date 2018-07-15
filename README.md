@@ -21,7 +21,6 @@ This application adhears to the DWA Style Guide, which is built upon the AirBnB 
 To perform a lint follow these instructions.
 * cd to your application folder in your terminal/cmd
 * Run `npm test`
-```
 
 ## Built With
 

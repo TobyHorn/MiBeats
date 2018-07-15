@@ -29,10 +29,6 @@ To perform a lint follow these instructions.
 * [Popper](https://popper.js.org/) - Used for popovers
 * [Tether](http://tether.io/) - Used for popovers
 
-## Versioning
-
-[SemVer](http://semver.org/) is used for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
 ## Authors
 
 * **Toby Horn** - *Developer/Student*

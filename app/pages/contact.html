@@ -8,7 +8,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Fruktur" rel="stylesheet">
 		<link rel="stylesheet" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" href="../css/styles.css">
-		<title>Tracks | MiBeats</title>
+		<title>Contact | MiBeats</title>
 	</head>
 	<body>
         <div id="wrapper">
@@ -44,7 +44,7 @@
                             </ul>
                        </section>
                     </div><!-- row -->
-                    
+
                     <div id="brand" class="row align-items-center">
                         <section class="col-sm-3 col-6">
                             <img id="logo" src="../images/logo.png" alt="logo image" class="img-fluid">
@@ -53,11 +53,11 @@
                             <p class="h1">MiBeats</p>
                         </section>
                     </div><!-- row -->
-                    
+
                     <nav class="row align-items-end text-right">
                         <section class="col-sm-12 col-12">
                             <ul class="list-inline list-unstyled">
-                                <li class="list-inline-item"><a href="../index.html">Home</a></li>
+                                <li class="list-inline-item"><a href="./index.html">Home</a></li>
                                 <li class="list-inline-item"><a href="./tracks.html">Tracks</a></li>
                                 <li class="list-inline-item"><a href="./leasing.html">Leasing</a></li>
                                 <li class="list-inline-item"><a href="./contact.html">Contact</a></li>
@@ -65,58 +65,42 @@
                         </section>
                     </nav>
                 </header>
-                <main id="tracks">
-                    <h2 class="text-center">Tracks</h2>
-                    <section class="row text-center" style="max-height: 350px; overflow: auto; overflow-x: hidden;">
-                        <div class="col-12 col-md-6 mb-5">
-                        <p class="h5">Track 1</p>
-                        <audio controls> </audio>
-                        </div>
-                        <div class="col-12 col-md-6 mb-5">
-                        <p class="h5">Track 2</p>
-                        <audio controls> </audio>
-                        </div>
-                        <div class="col-12 col-md-6 mb-5">
-                        <p class="h5">Track 3</p>
-                        <audio controls> </audio>
-                        </div>
-                        <div class="col-12 col-md-6 mb-5">
-                        <p class="h5">Track 4</p>
-                        <audio controls> </audio>
-                        </div>
-                        <div class="col-12 col-md-6 mb-5">
-                        <p class="h5">Track 5</p>
-                        <audio controls> </audio>
-                        </div>
-                        <div class="col-12 col-md-6 mb-5">
-                        <p class="h5">Track 6</p>
-                        <audio controls> </audio>
-                        </div>
-                        <div class="col-12 col-md-6 mb-5">
-                        <p class="h5">Track 7</p>
-                        <audio controls> </audio>
-                        </div>
-                        <div class="col-12 col-md-6 mb-5">
-                        <p class="h5">Track 8</p>
-                        <audio controls> </audio>
-                        </div>
-                        <div class="col-12 col-md-6 mb-5">
-                        <p class="h5">Track 9</p>
-                        <audio controls> </audio>
-                        </div>
-                        <div class="col-12 col-md-6 mb-5">
-                        <p class="h5">Track 10</p>
-                        <audio controls> </audio>
-                        </div>
-                        <div class="col-12 col-md-6 mb-5">
-                        <p class="h5">Track 11</p>
-                        <audio controls> </audio>
-                        </div>
-                        <div class="col-md-6">
-                        <p class="h5">Track 12</p>
-                        <audio controls> </audio>
-                        </div>
-                    </section>
+                <main id="contact">
+                   <h2 class="text-center">Contact Us</h2>
+                    <form>
+                        <fieldset class="form-group">
+                            <div class="form-group row justify-content-center">
+                               <div class="col-12 col-md-6">
+                                    <label class="form-control-label">Inquiry Type</label>
+                                    <select class="form-control">
+                                        <option value="pricing">Pricing</option>
+                                        <option value="purchases">Purchases</option>
+                                        <option value="partnership">Partnership</option>
+                                        <option value="promotional">Promotional</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div><!-- dropdown -->
+                            <div class="form-group row">
+                                <div class="form-group col-12 col-md-6">
+                                    <label class="form-control-label">Name</label>
+                                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name">
+                                </div><!-- name input -->
+
+                                <div class="form-group col-12 col-md-6">
+                                    <label class="form-control-label">Email</label>
+                                    <input class="form-control" type="email" id="email" name="email" placeholder="Enter Email">
+                                </div><!-- email input -->
+                            </div><!-- input -->
+                            <div class="form-group">
+                                <label class="form-control-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" placeholder="Your Message Here..."></textarea>
+                            </div><!-- textarea -->
+                            <div class="form-group text-right">
+                                <button id="contactBtn" type="button" class="btn btn-success" data-toggle="contact" title="Thanks!" data-content="We have received your message and will get back to you within 48 hours!">Submit</button>
+                            </div><!-- button -->
+                        </fieldset>
+                    </form>
                 </main>
             </div><!-- container -->
         </div><!-- wrapper -->
@@ -139,7 +123,7 @@
                 </section>
             </footer>
         </div><!-- container -->
-		
+
 		<script src="../js/tether.min.js"></script>
 		<script src="../js/popper.min.js"></script>
 		<script src="../js/jquery-3.2.1.slim.min.js"></script>
